@@ -1,0 +1,28 @@
+{
+    "minimum-stability": "dev",
+    "name": "gutty/tweet",
+    "require": {
+        "abraham/twitteroauth": "^1.0"
+    },
+    "version": "1.0.0",
+    "description": "Simple Twitter Client. This package can only tweet string.",
+    "license": ["MIT"],
+    "homepage": "https://github.com/masuipeo/tweet",
+    "authors": [ { "name": "gutty",
+                   "email": "ymgcmsts60@gmail.com",
+                   "homepage": "https://pomupomu.hatenadiary.jp",
+                   "role": "Developer" }
+    ],
+    "support": {
+        "source": "https://github.com/huwamoko6210/composer/tree/master/tweet"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Gutty\\Tweet\\": "src"
+        }
+    },
+
+    "keywords": ["twitter", "api", "simple", "tweet"]
+}

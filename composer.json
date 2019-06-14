@@ -1,0 +1,5 @@
+{
+    "require": {
+        "gutty/tweet": "^1.0"
+    }
+}
